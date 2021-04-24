@@ -1,0 +1,37 @@
+.mainBody{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.leftBar{
+    width: 20%;
+    height: 450px;
+    background-color: #64b5f6;
+    border: 10px solid white;
+}
+
+.gameBody{
+    width: 80%;
+    height: 450px;
+    background-color: #e3f2fd;
+    border: 10px solid white;
+
+}
